@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern List Layout</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .title {
+            text-align: center;
+            font-size: 48px;
+            color: red;
+            margin-bottom: 20px;
+        }
+        .list-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .list {
+            width: 45%;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .list h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #0b0c0b;
+        }
+        .list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .list ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f1f1f1;
+        }
+        .list ul li:last-child {
+            border-bottom: none;
+        }
+        .list ul li a {
+            color: #f30909;
+            text-decoration: none;
+            text-align: center;
+        }
+        .list ul li a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .title {
+                font-size: 36px;
+            }
+            .list {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Resucitó</h1>
+    <div class="list-container">
+        <div class="list">
+            <h2>Left List</h2>
+            <ul>
+                <li><a href="/cantos.html/lavictima.html">a la victima pascual</a></li>
+                <li><a href="/cantos.html/anadie.html">A nadie demos ocacion</a></li>
+                <li><a href="/cantos.html/atilevanto.html">A ti levanto mis ojos</a></li>
+                <li><a href="/cantos.html/atienmiclamor.html">A ti señor en mi clamor</a></li>
+                <li><a href="/cantos.html/atilevanto.html">A ti señor levanto</a></li>
+                <li><a href="/cantos.html/atisedebe.html">A ti Señor se debe alabanza</a></li>
+                <li><a href="/cantos.html/abrahm.html">Abraham</a></li>
+                <li><a href="/cantos.html/aclamad.html">Aclamad al señor</a></li>
+                <li><a href="/cantos.html/aldespertar.html">Al despertar</a></li>
+                <li><a href="/cantos.html/babilonia.html">Babilonia</a></li>
+                <li><a href="/cantos.html/balaam.html">Balam</a></li>
+                <li><a href="/cantos.html/bendecire.html">Bendecire al eñor en todo tiempo</a></li>
+                <li><a href="/cantos.html/bendice.html">Bendice alma mia </a></li>
+                <li><a href="/cantos.html/cantadalsr.html">Cantad al Señor</a></li>
+                <li><a href="/cantos.html/cantico.html">Cantico de los tres jovenes</a></li>
+                <li><a href="/cantos.html/cantodemoi.html">Canto de Moises</a></li>
+                <li><a href="/cantos.html/caritas.html">Caritas Christi</a></li>
+                <li><a href="/cantos.html/comoes.html">Como es maravilloso</a></li>
+                <li><a href="/cantos.html/comolacierva.html">Como la cierva</a></li>
+                <li><a href="/cantos.html/dayenu.html">Dayenu</a></li>
+                <li><a href="/cantos.html/deprofundis.html">De profundi</a></li>
+                <li><a href="#services">El jacal de los pastores</a></li>
+                <li><a href="#portfolio">El necio piensa</a></li>
+                <li><a href="#contact">El pueblo r</a></li>
+                <li><a href="/resucito/A_la_victima_Pascual.jpg">El señor anuncia</a></li>
+                <li><a href="#services">El señor es mi pastor</a></li>
+                <li><a href="#portfolio">Eli eli</a></li>
+                <li><a href="#contact">En una  noche oscura</a></li>
+            </ul>
+        </div>
+        <div class="list">
+            <h2>Right List</h2>
+            <ul>
+                <li>Overview of the website's purpose and content.</li>
+                <li>Details about the services offered.</li>
+                <li>Examples of completed projects.</li>
+                <li>How to get in touch with us.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
